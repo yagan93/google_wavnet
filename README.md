@@ -46,7 +46,8 @@ curl -H "Authorization: Bearer "$(gcloud auth application-default print-access-t
 base64 --decode source_base64_text_file > dest_audio_file
 
 #### Let python do the magic
-Check out script.py
+script_without_translation (swiss german audio file - german transcription - speech synthesis) 
+script_with_translation (swiss german audio file - german transcription - translation - speech synthesis)
 
 #### SOURCES
 https://stackoverflow.com/questions/31037279/gcloud-command-not-found-while-installing-google-cloud-sdk
